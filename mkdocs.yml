@@ -1,47 +1,12 @@
-site_name: GitHub User Guide
-docs_dir: docs
-
+site_name: UX/UI 
 theme:
   name: material
-  features:
-    - navigation.expand
-    - navigation.sections
-    - toc.integrate
-    - content.code.copy
-  palette:
-    # Light mode
-    - scheme: default
-      primary: magenta
-      accent: magenta
-      toggle:
-        icon: material/weather-night
-        name: Dark mode
-
-    # Dark mode
-    - scheme: slate
-      primary: magenta
-      accent: magenta
-      toggle:
-        icon: material/weather-sunny
-        name: Light mode
 
 nav:
-  - Brainstorming websites: week01.md
-  - Design Thinking: week02.md
-  - User-Centered Design: week03.md
-  - Ideation: week04.md
-  - Information Architecture: week05.md
-  - Prototyping: week06.md
-  - User Interface: week07.md
-
-
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - tables
-  - attr_list
+  - Home: index.md
+  - Week 1: week01.md
+  - Week 2: week02.md
+  - Week 3: week03.md
+  - Week 4: week04.md
+  - Week 5: week05.md
+  - Week 6: week06.md
